@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 
-mongoose.connect('mongodb+srv://admin:Mikaelan1me@cursonode.rzvoiha.mongodb.net/CursoNode');
+mongoose.connect(`mongodb+srv://MONGODB_USERNAME:MONGODB_PASSWORD@cursonode.rzvoiha.mongodb.net/CursoNode`); //eu sei que vai dar error 
 
 let db = mongoose.connection;
 
